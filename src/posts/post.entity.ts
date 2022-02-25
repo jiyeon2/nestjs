@@ -5,10 +5,10 @@ class Post {
   @PrimaryGeneratedColumn()
   public id: number;
 
-  @Column('text')
+  @Column()
   public title: string;
 
-  @Column('text')
+  @Column()
   public content: string;
 }
 
